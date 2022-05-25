@@ -1,0 +1,19 @@
+form#loginForm {    
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 11rem;
+}
+
+form#loginForm > input.loginInput {
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+
+    display: inline-block;
+    padding: 0.8rem 0;
+    width: 18rem;    
+
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid white;
+}

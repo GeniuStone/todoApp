@@ -1,0 +1,58 @@
+form#todoForm {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+form#todoForm > input {
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+
+  display: inline-block;
+  padding: 0.8rem 0;
+  width: 18rem;
+
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+ul#todoList {
+  width: 20%;
+  height: 7rem;
+  margin: 0 auto;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+ul#todoList::-webkit-scrollbar {
+  width: 5px;
+}
+
+ul#todoList::-webkit-scrollbar-track {
+  background-color: rgb(0, 0, 0, 0);
+}
+
+ul#todoList::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 2rem;
+}
+
+ul#todoList > li {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  word-break: break-all;
+  color: white;
+  transition: all 500ms;
+}
+
+ul#todoList > li > input {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  zoom: 1.6;
+  position: relative;
+  top: 1px;
+}

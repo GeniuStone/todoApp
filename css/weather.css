@@ -1,0 +1,30 @@
+div#weather {
+  display: flex;
+  justify-content: right;
+
+  padding: 0.5rem 2rem;
+  margin-bottom: 16rem;
+
+  color: white;
+}
+
+div#weather > span {
+  margin-right: 0.5rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+div#weather > span.playPauseBtn {
+  margin-right: 1.5rem;
+
+  cursor: pointer;
+}
+
+div#weather > span.logoutBtn {
+  margin-left: 1rem;
+
+  cursor: pointer;
+  transition: all 800ms;
+  text-decoration: underline;
+}

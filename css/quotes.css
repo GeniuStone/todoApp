@@ -1,0 +1,25 @@
+div#quotes {  
+    margin-top: 3rem;
+}
+
+div#quotes > span.word {    
+    display: block;
+    margin-bottom: 0.5rem;
+
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+    font-weight: 300;
+}
+
+div#quotes > span.author {    
+    display: block;
+
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: 200;
+}

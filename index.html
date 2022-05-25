@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>TODO</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/weather.css" />
+    <link rel="stylesheet" href="/css/clock.css" />
+    <link rel="stylesheet" href="/css/loginForm.css" />
+    <link rel="stylesheet" href="/css/quotes.css" />
+    <link rel="stylesheet" href="/css/greeting.css" />
+    <link rel="stylesheet" href="/css/todo.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="bg">
+        <!-- 날씨 정보 -->
+        <div id="weather">
+          <span class="playPauseBtn">
+            <i class="fa fa-play hidden"></i>
+          </span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="logoutBtn hidden">Logout</span>
+        </div>
+
+        <!-- 시각 정보 -->
+        <div id="clockBox">
+          <span>00.00.00</span>
+          <h2>00:00:00</h2>
+        </div>
+
+        <!-- 로그인 박스 -->
+        <form class="hidden" id="loginForm">
+          <input type="text" placeholder="Enter your name" class="loginInput" />
+        </form>
+
+        <!-- 로그인 인사말 -->
+        <h1 class="hidden" id="greeting"></h1>
+
+        <!-- 할 일 입력 박스 -->
+        <form id="todoForm" class="hidden">
+          <input type="text" placeholder="What are you going to do?" required />
+        </form>
+
+        <!-- 할 일 목록 -->
+        <ul id="todoList" class="hidden"></ul>
+
+        <!-- 명언 -->
+        <div id="quotes">
+          <span class="word"></span>
+          <span class="author"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="/js/greeting.js"></script>
+  <script src="/js/clock.js"></script>
+  <script src="/js/quotes.js"></script>
+  <script src="/js/background.js"></script>
+  <script src="/js/todo.js"></script>
+  <script src="/js/weather.js"></script>
+  <script src="/js/userConvenience.js"></script>
+</html>
