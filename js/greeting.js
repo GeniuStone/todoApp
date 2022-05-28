@@ -14,7 +14,7 @@ const randNum = (num) => {
   return Math.floor(Math.random() * num);
 };
 
-const audio = new Audio("../audio/" + audios[randNum(audios.length)]);
+const audio = new Audio(".././audio/" + audios[randNum(audios.length)]);
 
 console.info(audio);
 
@@ -22,7 +22,7 @@ const alteration = () => {
   document.querySelector("form#todoForm").classList.remove(HIDDEN_CLASSNAME);
   document.querySelector("ul#todoList").classList.remove(HIDDEN_CLASSNAME);
   container.style.backgroundImage =
-    "url(" + `../images/${images[randNum(images.length)]}` + ")";
+    "url(" + `.././images/${images[randNum(images.length)]}` + ")";
   document.querySelector("div#clockBox > span").style.fontWeight = "100";
   document.querySelector("div#clockBox > h2").style.fontWeight = "100";  
   document.querySelector("div#clockBox > h2").classList.add("shadow");
