@@ -10,7 +10,7 @@ let todoArray = [];
 const removeTodo = (e) => {
   e.target.parentElement.style.textDecoration = "line-through";
   e.target.parentElement.style.textDecorationColor = "red";
-  e.target.parentElement.style.textDecorationThickness = "4px";    
+  e.target.parentElement.style.textDecorationThickness = "5px";    
 
   // 체크 여부 가시성을 위한 이벤트 지연 처리
   setTimeout(() => {
